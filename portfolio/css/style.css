@@ -1,0 +1,145 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:rgb(247, 248, 248) ;  
+}
+
+/*HEADER*/
+  
+header{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(3, 3, 90);
+    padding: 30px 0;
+}
+header ul {
+    padding: 0%;
+    list-style: none;
+    text-align: right;
+    padding-right: 20px;
+}
+header li{
+    display: inline-block;
+    
+}
+header a{
+    color: beige;
+    text-decoration: none;
+    padding: 28px;
+}
+header a:hover{
+    background-color: rgb(54, 53, 53);
+}
+/* section */
+.middle-container{
+    margin: 50px;
+}
+.profile{
+    padding: 60px 0 100px 0;
+}
+.photo{
+    border-radius: 50%;
+}
+.skills{
+    position:absolute;
+    top:700px;
+    left:260px;
+}
+.skill-row{
+    margin: 100px auto;
+}
+.computer{
+    float: left;
+    margin-right: 20px;
+    line-height: 4;
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+}
+ .javascript{
+    float: right;
+    margin-left: 20px;
+    line-height: 4;
+    text-align: right;
+    position: relative;
+    bottom: 75px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+} 
+.contact-me{
+    position: relative;
+    top:750px;
+}
+.button{
+    color: rgb(2, 49, 49);
+    padding-top: 20px;
+}
+
+/* footer */
+footer{
+width: 100%;
+}
+.bottom-container{
+    background-color: rgb(81, 19, 226);
+    text-align: center;
+    color: rgb(14, 12, 12);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    top:1600px;
+    left: 0px;
+    right: 0px;
+}
+/* html elements */
+h1{
+    color: rgb(5, 61, 33);
+    line-height: 2;
+}
+h2{
+    color: rgb(5, 61, 33);
+    line-height: 2;
+    margin-bottom: 5px;
+}
+h3{
+    color: rgb(5, 61, 33);
+    padding-bottom: 18px;
+}
+p{
+    font-family: 'Monserrat',sans-serif;
+}
+a{
+    color: rgb(240, 197, 197);
+}
+
+    
+
+.hr1{
+    border-style: none;
+    border-top-style:dotted ;
+    border-color: darkolivegreen;
+    border-width: 5px;
+    width: 5%;
+    margin-left: 48%;
+}
+.hr2{
+    position: relative;
+    left: 15px;
+    top: 680px;
+}
+.para{
+    padding-bottom: 10px;
+}
+
